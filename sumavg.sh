@@ -1,0 +1,14 @@
+num1=$(( 1+RANDOM%100 ))
+echo "Num1 =" $num1
+num2=$(( 1+RANDOM%100 ))
+echo "Num2 =" $num2
+num3=$(( 1+RANDOM%100 ))
+echo "Num3 =" $num3
+num4=$(( 1+RANDOM%100 ))
+echo "Num4 =" $num4
+num5=$(( 1+RANDOM%100 ))
+echo "Num5 =" $num5
+sum=$(( num1+num2+num3+num4+num5 ))
+echo "sum =" $sum
+Avg=$(( sum/5 ))
+echo "Average =" $Avg
